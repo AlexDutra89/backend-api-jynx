@@ -10,6 +10,8 @@ const fastify = Fastify({
 })
 
 
+// teste
+
 await fastify.register( usersRoutes, { prefix: '/users' } )
 await fastify.register( authRoutes )
 
